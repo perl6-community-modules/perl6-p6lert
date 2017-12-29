@@ -77,7 +77,12 @@ $ p6lert --block-on=high
 ## `--config`
 
 `Str`. Specifies the path to the configuration file to use. The file will be
-created if it does not exist.
+created if it does not exist. The default config file location is
+`~/.p6lert.conf` or, if `$*HOME` is `Nil`, then in `./.p6lert.conf`
+
+```bash
+$ p6lert --config=/home/meows/p6alerter
+```
 
 The config file contains a JSON object that currently only has
 `last-fetch-time` property. This property stores information about the time
@@ -87,6 +92,10 @@ be displayed when program is executed.
 Passing value of `/dev/null` (or `nul` on
 Windows) as `--config` will make the program ignore the config file loading
 and it won't store `last-fetch-time`, giving full list of alerts on each load.
+
+```bash
+$ p6lert --config=/dev/null
+```
 
 ----
 
