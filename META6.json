@@ -7,7 +7,7 @@
     "tags"         : [ "command line" ],
     "depends"      : [
         "JSON::Fast",
-        "WWW::P6lerts"
+        "WWW::P6lert"
     ],
     "test-depends" : [
         "JSON::Fast",
