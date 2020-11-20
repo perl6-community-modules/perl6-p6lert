@@ -2,7 +2,7 @@
 
 # NAME
 
-`p6lert` - Alerts from [alerts.perl6.org](https://alerts.perl6.org) on your command line
+`p6lert` - Alerts from [alerts.raku.org](https://alerts.raku.org) on your command line
 
 # SYNOPSIS
 
@@ -30,7 +30,7 @@ testing5
 
 # DESCRIPTION
 
-Fetch alerts from [alerts.perl6.org](https://alerts.perl6.org) on your
+Fetch alerts from [alerts.raku.org](https://alerts.raku.org) on your
 command line
 
 # ARGUMENTS
@@ -102,12 +102,12 @@ $ p6lert --config=/dev/null
 #### REPOSITORY
 
 Fork this module on GitHub:
-https://github.com/zoffixznet/perl6-p6lert
+https://github.com/raku-community-modules/p6lert
 
 #### BUGS
 
 To report bugs or request features, please use
-https://github.com/zoffixznet/perl6-p6lert/issues
+https://github.com/raku-community-modules/p6lert/issues
 
 #### AUTHOR
 
